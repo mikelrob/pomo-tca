@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E34900A2A7AA9030072D30D /* PomoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3490092A7AA9030072D30D /* PomoApp.swift */; };
+		3E34900C2A7AA9030072D30D /* PomoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E34900B2A7AA9030072D30D /* PomoView.swift */; };
+		3E34900E2A7AA9060072D30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E34900D2A7AA9060072D30D /* Assets.xcassets */; };
+		3E3490122A7AA9060072D30D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3490112A7AA9060072D30D /* Preview Assets.xcassets */; };
+		3E34901A2A7AA9600072D30D /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3E3490192A7AA9600072D30D /* ComposableArchitecture */; };
+		3E34901C2A7AB17C0072D30D /* Pomo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E34901B2A7AB17C0072D30D /* Pomo.swift */; };
+		3E3490242A7ABEAE0072D30D /* PomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3490232A7ABEAE0072D30D /* PomoTests.swift */; };
+		3E9BFCA02A7BE5540056A97C /* TimerItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9BFC9F2A7BE5540056A97C /* TimerItemRowView.swift */; };
+		3E9BFCA22A7BEC530056A97C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9BFCA12A7BEC530056A97C /* TimerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E3490252A7ABEAE0072D30D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E348FFE2A7AA9030072D30D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E3490052A7AA9030072D30D;
+			remoteInfo = Pomo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E3490062A7AA9030072D30D /* Pomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3490092A7AA9030072D30D /* PomoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoApp.swift; sourceTree = "<group>"; };
+		3E34900B2A7AA9030072D30D /* PomoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoView.swift; sourceTree = "<group>"; };
+		3E34900D2A7AA9060072D30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E34900F2A7AA9060072D30D /* Pomo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pomo.entitlements; sourceTree = "<group>"; };
+		3E3490112A7AA9060072D30D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E34901B2A7AB17C0072D30D /* Pomo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pomo.swift; sourceTree = "<group>"; };
+		3E3490212A7ABEAE0072D30D /* PomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3490232A7ABEAE0072D30D /* PomoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomoTests.swift; sourceTree = "<group>"; };
+		3E34902A2A7BC8C20072D30D /* Pomo.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Pomo.xctestplan; sourceTree = "<group>"; };
+		3E9BFC9F2A7BE5540056A97C /* TimerItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerItemRowView.swift; sourceTree = "<group>"; };
+		3E9BFCA12A7BEC530056A97C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E3490032A7AA9030072D30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E34901A2A7AA9600072D30D /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E34901E2A7ABEAE0072D30D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E348FFD2A7AA9030072D30D = {
+			isa = PBXGroup;
+			children = (
+				3E34902A2A7BC8C20072D30D /* Pomo.xctestplan */,
+				3E3490082A7AA9030072D30D /* Pomo */,
+				3E3490222A7ABEAE0072D30D /* PomoTests */,
+				3E3490072A7AA9030072D30D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E3490072A7AA9030072D30D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3490062A7AA9030072D30D /* Pomo.app */,
+				3E3490212A7ABEAE0072D30D /* PomoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E3490082A7AA9030072D30D /* Pomo */ = {
+			isa = PBXGroup;
+			children = (
+				3E3490092A7AA9030072D30D /* PomoApp.swift */,
+				3E34900B2A7AA9030072D30D /* PomoView.swift */,
+				3E9BFCA12A7BEC530056A97C /* TimerView.swift */,
+				3E9BFC9F2A7BE5540056A97C /* TimerItemRowView.swift */,
+				3E34901B2A7AB17C0072D30D /* Pomo.swift */,
+				3E34900D2A7AA9060072D30D /* Assets.xcassets */,
+				3E34900F2A7AA9060072D30D /* Pomo.entitlements */,
+				3E3490102A7AA9060072D30D /* Preview Content */,
+			);
+			path = Pomo;
+			sourceTree = "<group>";
+		};
+		3E3490102A7AA9060072D30D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3E3490112A7AA9060072D30D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3E3490222A7ABEAE0072D30D /* PomoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E3490232A7ABEAE0072D30D /* PomoTests.swift */,
+			);
+			path = PomoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E3490052A7AA9030072D30D /* Pomo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3490152A7AA9060072D30D /* Build configuration list for PBXNativeTarget "Pomo" */;
+			buildPhases = (
+				3E3490022A7AA9030072D30D /* Sources */,
+				3E3490032A7AA9030072D30D /* Frameworks */,
+				3E3490042A7AA9030072D30D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pomo;
+			packageProductDependencies = (
+				3E3490192A7AA9600072D30D /* ComposableArchitecture */,
+			);
+			productName = Pomo;
+			productReference = 3E3490062A7AA9030072D30D /* Pomo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E3490202A7ABEAE0072D30D /* PomoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3490272A7ABEAE0072D30D /* Build configuration list for PBXNativeTarget "PomoTests" */;
+			buildPhases = (
+				3E34901D2A7ABEAE0072D30D /* Sources */,
+				3E34901E2A7ABEAE0072D30D /* Frameworks */,
+				3E34901F2A7ABEAE0072D30D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E3490262A7ABEAE0072D30D /* PBXTargetDependency */,
+			);
+			name = PomoTests;
+			productName = PomoTests;
+			productReference = 3E3490212A7ABEAE0072D30D /* PomoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E348FFE2A7AA9030072D30D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3E3490052A7AA9030072D30D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3E3490202A7ABEAE0072D30D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3E3490052A7AA9030072D30D;
+					};
+				};
+			};
+			buildConfigurationList = 3E3490012A7AA9030072D30D /* Build configuration list for PBXProject "Pomo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E348FFD2A7AA9030072D30D;
+			packageReferences = (
+				3E3490182A7AA9600072D30D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
+			productRefGroup = 3E3490072A7AA9030072D30D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E3490052A7AA9030072D30D /* Pomo */,
+				3E3490202A7ABEAE0072D30D /* PomoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E3490042A7AA9030072D30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3490122A7AA9060072D30D /* Preview Assets.xcassets in Resources */,
+				3E34900E2A7AA9060072D30D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E34901F2A7ABEAE0072D30D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E3490022A7AA9030072D30D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9BFCA22A7BEC530056A97C /* TimerView.swift in Sources */,
+				3E9BFCA02A7BE5540056A97C /* TimerItemRowView.swift in Sources */,
+				3E34901C2A7AB17C0072D30D /* Pomo.swift in Sources */,
+				3E34900C2A7AA9030072D30D /* PomoView.swift in Sources */,
+				3E34900A2A7AA9030072D30D /* PomoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E34901D2A7ABEAE0072D30D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E3490242A7ABEAE0072D30D /* PomoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E3490262A7ABEAE0072D30D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E3490052A7AA9030072D30D /* Pomo */;
+			targetProxy = 3E3490252A7ABEAE0072D30D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E3490132A7AA9060072D30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E3490142A7AA9060072D30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3E3490162A7AA9060072D30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pomo/Pomo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pomo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6STBSL2595;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mikerobinson.test.Pomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E3490172A7AA9060072D30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pomo/Pomo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pomo/Preview Content\"";
+				DEVELOPMENT_TEAM = 6STBSL2595;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mikerobinson.test.Pomo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E3490282A7ABEAE0072D30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6STBSL2595;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mikerobinson.test.PomoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pomo";
+			};
+			name = Debug;
+		};
+		3E3490292A7ABEAE0072D30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6STBSL2595;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mikerobinson.test.PomoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pomo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E3490012A7AA9030072D30D /* Build configuration list for PBXProject "Pomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3490132A7AA9060072D30D /* Debug */,
+				3E3490142A7AA9060072D30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3490152A7AA9060072D30D /* Build configuration list for PBXNativeTarget "Pomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3490162A7AA9060072D30D /* Debug */,
+				3E3490172A7AA9060072D30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3490272A7ABEAE0072D30D /* Build configuration list for PBXNativeTarget "PomoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3490282A7ABEAE0072D30D /* Debug */,
+				3E3490292A7ABEAE0072D30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E3490182A7AA9600072D30D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E3490192A7AA9600072D30D /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E3490182A7AA9600072D30D /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3E348FFE2A7AA9030072D30D /* Project object */;
+}

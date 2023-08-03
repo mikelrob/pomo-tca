@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "27512DF5-355B-4F52-A63F-0574B7E35D69",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Pomo.xcodeproj",
+      "identifier" : "3E3490052A7AA9030072D30D",
+      "name" : "Pomo"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Pomo.xcodeproj",
+        "identifier" : "3E3490202A7ABEAE0072D30D",
+        "name" : "PomoTests"
+      }
+    }
+  ],
+  "version" : 1
+}
