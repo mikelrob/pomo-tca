@@ -50,23 +50,44 @@ struct Pomo: Reducer {
                     return .send(.stop)
                 }
                 return .none
+            case .timeItemTapped(let id):
+                state.timerSheet = state.timers[id: id].flatMap(TimerSheet.State.init)
+                return .none
+            case .timerSheetAction(.presented(.tappedRemove)):
+                if let id = state.timerSheet?.timerItem.id {
+                    state.timers.remove(id: id)
+                }
+
+                state.timerSheet = nil
+                
+                return .none
+            case .timerSheetAction(_):
+                return .none
             }
+        }
+        .ifLet(\.$timerSheet, action: /Action.timerSheetAction) {
+            TimerSheet()
         }
     }
 
     enum Action: Equatable {
+        case timerSheetAction(PresentationAction<TimerSheet.Action>)
+
         case start
         case stop
         case titleChanged(String)
         case timerTicked
+        case timeItemTapped(id: TimerItem.ID)
     }
 
     struct State: Equatable {
+        @PresentationState var timerSheet: TimerSheet.State?
+
         var isTimerActive = false
         var timerTitle = ""
         var isStartDisabled: Bool { timerTitle.isEmpty }
         var secondsElapsed = 0
-        var timers = [TimerItem]()
+        var timers = IdentifiedArrayOf<TimerItem>()
     }
 
 //    func reduce(into state: inout State, action: Action) -> Effect<Action> {

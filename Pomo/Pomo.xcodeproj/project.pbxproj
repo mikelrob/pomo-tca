@@ -16,6 +16,8 @@
 		3E3490242A7ABEAE0072D30D /* PomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3490232A7ABEAE0072D30D /* PomoTests.swift */; };
 		3E9BFCA02A7BE5540056A97C /* TimerItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9BFC9F2A7BE5540056A97C /* TimerItemRowView.swift */; };
 		3E9BFCA22A7BEC530056A97C /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9BFCA12A7BEC530056A97C /* TimerView.swift */; };
+		3E9BFCA52A7D1E2E0056A97C /* TimerSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9BFCA42A7D1E2E0056A97C /* TimerSheetView.swift */; };
+		3E9BFCA82A7D1F0D0056A97C /* TimerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9BFCA72A7D1F0D0056A97C /* TimerSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		3E34902A2A7BC8C20072D30D /* Pomo.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Pomo.xctestplan; sourceTree = "<group>"; };
 		3E9BFC9F2A7BE5540056A97C /* TimerItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerItemRowView.swift; sourceTree = "<group>"; };
 		3E9BFCA12A7BEC530056A97C /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		3E9BFCA42A7D1E2E0056A97C /* TimerSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSheetView.swift; sourceTree = "<group>"; };
+		3E9BFCA72A7D1F0D0056A97C /* TimerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				3E3490092A7AA9030072D30D /* PomoApp.swift */,
-				3E34900B2A7AA9030072D30D /* PomoView.swift */,
-				3E9BFCA12A7BEC530056A97C /* TimerView.swift */,
-				3E9BFC9F2A7BE5540056A97C /* TimerItemRowView.swift */,
-				3E34901B2A7AB17C0072D30D /* Pomo.swift */,
+				3E9BFCA32A7D1E190056A97C /* PomoView */,
+				3E9BFCA62A7D1EEF0056A97C /* TimerSheetView */,
 				3E34900D2A7AA9060072D30D /* Assets.xcassets */,
 				3E34900F2A7AA9060072D30D /* Pomo.entitlements */,
 				3E3490102A7AA9060072D30D /* Preview Content */,
@@ -110,6 +112,26 @@
 				3E3490232A7ABEAE0072D30D /* PomoTests.swift */,
 			);
 			path = PomoTests;
+			sourceTree = "<group>";
+		};
+		3E9BFCA32A7D1E190056A97C /* PomoView */ = {
+			isa = PBXGroup;
+			children = (
+				3E34900B2A7AA9030072D30D /* PomoView.swift */,
+				3E9BFCA12A7BEC530056A97C /* TimerView.swift */,
+				3E9BFC9F2A7BE5540056A97C /* TimerItemRowView.swift */,
+				3E34901B2A7AB17C0072D30D /* Pomo.swift */,
+			);
+			path = PomoView;
+			sourceTree = "<group>";
+		};
+		3E9BFCA62A7D1EEF0056A97C /* TimerSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				3E9BFCA42A7D1E2E0056A97C /* TimerSheetView.swift */,
+				3E9BFCA72A7D1F0D0056A97C /* TimerSheet.swift */,
+			);
+			path = TimerSheetView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +244,9 @@
 				3E9BFCA02A7BE5540056A97C /* TimerItemRowView.swift in Sources */,
 				3E34901C2A7AB17C0072D30D /* Pomo.swift in Sources */,
 				3E34900C2A7AA9030072D30D /* PomoView.swift in Sources */,
+				3E9BFCA52A7D1E2E0056A97C /* TimerSheetView.swift in Sources */,
 				3E34900A2A7AA9030072D30D /* PomoApp.swift in Sources */,
+				3E9BFCA82A7D1F0D0056A97C /* TimerSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

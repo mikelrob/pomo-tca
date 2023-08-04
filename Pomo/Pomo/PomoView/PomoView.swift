@@ -59,13 +59,23 @@ struct PomoView: View {
                 .backgroundStyle(.pink)
 
                 ForEach(viewStore.timers) { item in
-                    TimerItemRowView(item: item)
+                    
+                    TimerItemRowView(item: item) {
+                        viewStore.send(.timeItemTapped(id: item.id))
+                    }
                 }
                 .padding(.horizontal)
 
                 Spacer()
             }
         }
+        .sheet(store: store.scope(
+            state: \.$timerSheet,
+            action: Pomo.Action.timerSheetAction)) { store in
+                NavigationView {
+                    TimerSheetView(store: store)
+                }
+            }
     }
 }
 
